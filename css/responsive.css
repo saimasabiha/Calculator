@@ -1,0 +1,45 @@
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .calculator-grid {
+    height: 499px;
+    width: 300px;
+  }
+
+  .input {
+    height: 85px;
+    width: 286px;
+    font-size: 35px;
+  }
+
+  .button {
+    height: 78px;
+    width: 73px;
+    font-size: 25px;
+    line-height: 78px;
+    transition: all linear 0.2s;
+  }
+  .button:hover {
+    font-size: 32px;
+    transition: all linear 0.3s;
+  }
+  .span-two {
+    width: 148px;
+    font-size: 25px;
+    transition: all linear 0.2s;
+  }
+  .span-two:hover {
+    font-size: 30px;
+    transition: all linear 0.3s;
+  }
+}
